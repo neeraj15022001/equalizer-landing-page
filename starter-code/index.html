@@ -1,0 +1,109 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Equalizer</title>
+  </head>
+  <body
+    style="
+      background: url('./assets/bg-main-mobile.png') no-repeat white;
+      background-size: contain;
+    "
+  >
+    <!-- Navbar -->
+    <nav class="py-10 px-6 mb-10 flex items-center justify-start">
+      <div>
+        <span class="font-bold text-4xl"> equalizer </span>
+      </div>
+    </nav>
+    <img src="./assets/bg-pattern-1.svg" alt="pattern" class="hidden" />
+    <!-- main -->
+    <main>
+      <div class="px-6 mb-44">
+        <h1 class="text-4xl font-bold mb-6">
+          We make your music sound extraordinary.
+        </h1>
+        <p>
+          A system audio equalizer specifically designed for Android and iOS.
+          Freely tune the way your music sounds with a professional grade
+          parametric EQ & volume mixer. Control bass, mids, treble, gain
+          control, reverb, and more!
+        </p>
+      </div>
+      <!-- App Download Container -->
+      <div
+        style="
+          background: url('./assets/bg-pattern-2.svg') no-repeat #191828;
+          background-size: contain;
+          background-position: center;
+          height: 500px;
+        "
+        class="relative rounded-xl mt-20 mb-72"
+      >
+        <!-- image -->
+        <img
+          src="./assets/illustration-app.png"
+          alt="phone"
+          class="w-1/2 translate-x-1/2 -translate-y-20 -top-24"
+        />
+        <!-- Download Link -->
+        <div
+          class="bg-orange-500 text-white w-screen px-8 py-10 rounded-xl -translate-y-6"
+        >
+          <h2 class="text-3xl font-bold mb-4">Premium EQ</h2>
+          <p>
+            Get expert-level control with a robust equalizer, volume mixer, and
+            spatial audio. Take your listening experience to a whole new level
+            and access all our incredible features!
+          </p>
+          <div class="flex items-center">
+            <span class="my-6 text-5xl font-extrabold"> $4 </span>
+            <span class="text-xl ml-4 font-normal">/month</span>
+          </div>
+          <!-- Download Buttons -->
+          <div class="grid">
+            <button
+              class="flex items-center justify-center mb-4 bg-gray-900 py-4 rounded-xl"
+            >
+              <img src="./assets/icon-apple.svg" alt="apple" class="mr-3" /> iOS
+              Download
+            </button>
+            <button
+              class="flex items-center justify-center bg-white text-black py-4 rounded-xl"
+            >
+              <img src="./assets/icon-android.svg" alt="android" class="mr-3" />
+              Android Download
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="flex flex-col items-start pt-28 pb-20 px-6">
+      <!-- Brand -->
+      <div class="mb-6">
+        <span class="font-bold text-4xl">equalizer</span>
+      </div>
+      <!-- Copyright -->
+      <div class="mb-14">
+        <p>all rights reserved © Equalizer 2022</p>
+        <p>
+          have any problems? Contact us via social media or email us at
+          <strong
+            ><a href="mailto:eqaulizer@example.com"
+              >equalizer@example.com</a
+            ></strong
+          >
+        </p>
+      </div>
+      <!-- Social Media -->
+      <div class="flex items-center justify-start">
+        <img src="./assets/icon-facebook.svg" alt="facebook" class="mr-4" />
+        <img src="./assets/icon-instagram.svg" alt="instagram" class="mr-4" />
+        <img src="./assets/icon-twitter.svg" alt="twitter" />
+      </div>
+    </footer>
+  </body>
+</html>
